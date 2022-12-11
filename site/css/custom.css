@@ -1,0 +1,34 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+-----------------------------------------------------------------*/
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Quicksand:wght@700&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap'); */
+
+
+
+/* TODO: Testar responsividade  */
+.caption-option1{
+	
+    text-shadow: 2px 2px 2px #000!important;
+	/* top: 150px; */
+		
+}
+
+/* TODO: Testar responsividade  */
+.caption-option2{
+	
+    text-shadow: 2px 2px 2px white !important;
+	
+}
+
+.caption-position1{
+	
+	top: 6rem;
+	
+}
+
+
+
+

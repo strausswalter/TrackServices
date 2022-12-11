@@ -1,3 +1,8 @@
+#Pasta com arquivos de rascunho / uso em desenvolvimento
+devAssets/
+devAssets/*
+
+
 # Logs
 logs
 *.log
