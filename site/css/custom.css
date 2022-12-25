@@ -17,6 +17,7 @@
 }
 
 /* TODO: Testar responsividade  */
+/* TODO: Limpar código?? */
 .caption-option2{
 	
     text-shadow: 2px 2px 2px white !important;
@@ -30,5 +31,130 @@
 }
 
 
+/* TODO: Testando 2o menu */
+/* -------------------------------------
+||| Top-bar / 2o menu
+--------------------------------------- */
 
 
+.dark .top-links-item > a, .dark #top-social li a, #top-bar.dark {
+    color: #FFF;
+}
+.dark .top-links-item > a:hover, .dark #top-social li a:hover, #top-bar.dark:hover {
+
+    color: #1ABC9C;
+}
+
+
+
+.list-unstyled{
+	padding-left:0;
+	list-style:none;
+	display:inline-block;
+
+}
+
+.list-inline-item{
+	display:inline-block
+}
+
+
+
+/* 
+.header__topbar .contact__list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+  }
+  
+  .header__topbar .contact__list li {
+	font-size: 13px;
+	line-height: 37px;
+	color: #f2f2f2;
+	margin-right: 25px;
+	display: flex;
+	align-items: center;
+  }
+  
+  .header__topbar .contact__list li i {
+	font-size: 15px;
+	margin-right: 8px;
+  }
+  
+  .header__topbar .contact__list li:last-child {
+	margin-right: 0;
+  }
+  
+  .header__topbar .social__icons a {
+	color: #ffffff;
+	line-height: 37px;
+	margin-right: 12px;
+  }
+  .header__topbar .social__icons a.links, .header__topbar .text-white {
+	font-size:14px;
+  }
+  
+  @media (min-width:768px) {  
+	.header__topbar .social__icons a.links, .header__topbar .text-white  {
+	  font-size:12px;
+	}  
+  }
+  
+  .header__topbar .social__icons a:last-child {
+	margin-right: 0;
+  }
+  
+  .header__topbar .social__icons a:hover {
+	color: #cbfffb;
+  }
+  
+  .header__topbar .social__icons span {
+	margin-right: 20px;
+  }
+  
+  .header__topbar .header__topbar-links {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-end;
+  }
+  
+  .header__topbar .header__topbar-links li {
+	line-height: 37px;
+  }
+  
+  .header__topbar .header__topbar-links li a {
+	display: block;
+	color: #ffffff;
+	position: relative;
+	padding-right: 15px;
+	margin-right: 15px;
+	font-size: 13px;
+  }
+  
+  .header__topbar .header__topbar-links li a:after {
+	content: "-";
+	position: absolute;
+	right: 0;
+	color: #ffffff;
+  }
+  
+  .header__topbar .header__topbar-links li a:hover {
+	color: #14a28f;
+  }
+  
+  .header__topbar .header__topbar-links li:last-child a {
+	padding-right: 0;
+	margin-right: 0;
+  }
+  
+  .header__topbar .header__topbar-links li:last-child a:after {
+	display: none;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+	.header__topbar {
+	  display: none;
+	}
+  } */
+  
