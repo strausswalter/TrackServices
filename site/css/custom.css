@@ -37,7 +37,7 @@
 --------------------------------------- */
 
 
-.dark .top-links-item > a, .dark #top-social li a, #top-bar.dark {
+/* .dark .top-links-item > a, .dark #top-social li a, #top-bar.dark {
     color: #FFF;
 }
 .dark .top-links-item > a:hover, .dark #top-social li a:hover, #top-bar.dark:hover {
@@ -46,8 +46,18 @@
 }
 
 
+.dark .top-links-item:hover {
+    background-color: white;
+	color: #ec1e23;
+	
+}
+.dark .menu-item:hover > .menu-link,
+.dark .menu-item.current > .menu-link {
+	color: #ec1e23;
+} */
 
-/* TODO: Testando nome TrackServices no footer */
+
+
 /* -------------------------------------
 ||| Footer
 --------------------------------------- */
