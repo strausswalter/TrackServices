@@ -35,8 +35,17 @@
 /* -------------------------------------
 ||| Top-bar / 2o menu
 --------------------------------------- */
+.dark .top-links-item > a, .dark #top-social li a, #top-bar.dark {
+    color: #FFF;
+}
+.dark .top-links-item > a:hover, .dark #top-social li a:hover, #top-bar.dark:hover, .menu-link:hover {
 
-
+    color: #ec1e23!important;
+}
+.dark .top-links-item:hover {
+    background-color: white;
+	
+}
 /* .dark .top-links-item > a, .dark #top-social li a, #top-bar.dark {
     color: #FFF;
 }
