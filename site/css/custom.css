@@ -8,6 +8,20 @@
 
 
 
+
+/* Menu Links - Ajuste do scrolling dos anchor links do menu */
+html{
+    scroll-padding-top: 4rem;
+    /* scroll-margin-top */
+}
+
+
+
+
+
+
+/* Carousel */
+
 /* TODO: Testar responsividade  */
 .caption-option1{
 	
@@ -38,14 +52,31 @@
 .dark .top-links-item > a, .dark #top-social li a, #top-bar.dark {
     color: #FFF;
 }
+
 .dark .top-links-item > a:hover, .dark #top-social li a:hover, #top-bar.dark:hover, .menu-link:hover {
 
-    color: #ec1e23!important;
+    color: white!important;
 }
 .dark .top-links-item:hover {
     background-color: white;
 	
 }
+
+
+/* #top-social > li > a {
+    color: white!important;
+
+} */
+
+#top-social > ul > li > a:hover {
+    text-decoration: white!important;
+
+}
+
+
+
+
+
 /* .dark .top-links-item > a, .dark #top-social li a, #top-bar.dark {
     color: #FFF;
 }
@@ -64,6 +95,51 @@
 .dark .menu-item.current > .menu-link {
 	color: #ec1e23;
 } */
+
+
+
+/* -------------------------------------
+||| Serviços 
+--------------------------------------- */
+/* Efeito hover nas imagens */
+
+#portfolio > article > div > div.portfolio-image > a > img{
+    transition: all 1s;
+}
+
+
+
+#portfolio > article > div > div.portfolio-image > a:hover > img{
+    /* overflow: hidden; */
+    transform: scale(1.2) rotate(5deg);
+   
+}
+
+
+
+
+
+
+
+/* -------------------------------------
+||| Serviços Modal
+--------------------------------------- */
+
+
+
+.modal-style1{
+    color: black!important;
+}
+.modal-style1:hover{
+    color: #ec1e23!important;
+}
+.header-extras span{
+    overflow: visible;
+}
+.si-share{
+    position: absolute!important;
+    bottom: 50px!important;
+}
 
 
 
