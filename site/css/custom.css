@@ -53,7 +53,7 @@ html{
     color: #FFF;
 }
 
-.dark .top-links-item > a:hover, .dark #top-social li a:hover, #top-bar.dark:hover, .menu-link:hover {
+.dark .top-links-item > a:hover, .dark #top-social li a:hover, #top-bar.dark:hover{
 
     color: white!important;
 }
@@ -95,6 +95,7 @@ html{
 .dark .menu-item.current > .menu-link {
 	color: #ec1e23;
 } */
+
 
 
 
