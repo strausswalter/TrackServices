@@ -47,7 +47,7 @@
 
 					<div class="col-12 col-lg-auto">
 						<!-- <p class="mb-0 d-flex justify-content-center justify-content-lg-start py-3 py-lg-0"><strong>Free U.S. Shipping on Order above $99. Easy Returns.</strong></p> -->
-						
+
 						<div class="top-links">
 							<ul class="top-links-container">
 								<li class="top-links-item"></i><a href="#"><i class="icon-phone3"></i> Corporativo: (22)
@@ -114,7 +114,7 @@
 		<!-- Header
 		============================================= -->
 		<!-- <header id="header" class="full-header transparent-header" data-sticky-class="not-dark"> -->
-			<header id="header" class="full-header" data-sticky-class="not-dark">
+		<header id="header" class="full-header" data-sticky-class="not-dark">
 
 			<div id="header-wrap">
 				<div class="container">
@@ -137,11 +137,8 @@
 							<div id="chamado" class="header-misc">
 								<!-- <div id="chamado" class="header-misc-icon"> -->
 
-								<a href="https://portal.milvus.com.br/#/login" target="_blank" class="menu-link">Abra o
-									seu chamado</a>
-								<!-- <a href="#" class="menu-link btn btn-default">Abra o seu chamado</a> -->
-
-
+								<!-- <a href="https://portal.milvus.com.br/#/login" target="_blank" class="menu-link">Abra o seu chamado</a> -->
+								<a href="https://apiintegracao.milvus.com.br/api/chamado/criar" target="_blank" class="menu-link">Abra o seu chamado</a>
 
 
 
@@ -257,7 +254,7 @@
 							</div>
 							<!-- Foto 2 tecnicos de costas -->
 							<!-- <div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/suporteExterno.webp'); background-position: center top;"></div> -->
-							<div class="swiper-slide-bg"	
+							<div class="swiper-slide-bg"
 								style="background-image: url('images/slider/swiper/outosourcing.webp'); background-position: center top;">
 							</div>
 						</div>
@@ -367,9 +364,6 @@
 								style="background-image: url('images/slider/swiper/equipamentosdeti.jpg'); background-position: center top;">
 							</div>
 						</div>
-
-
-
 
 
 					</div>
@@ -824,13 +818,13 @@
 									<!-- Modal Ajax -->
 									<a href="./servicos-sitecoorporativo.html" data-lightbox="ajax">
 										<!-- Imagem do slide 400x300 -->
-										<img src="images/services/site-coorporativo.png" alt="Imagem Site Coorporativo">
+										<img src="images/services/site-coorporativo.png" alt="Imagem Site Corporativo">
 									</a>
 								</div>
 								<!-- Image: End -->
 								<!-- Description: Start -->
 								<div class="portfolio-desc">
-									<h3>Site Coorporativo</h3>
+									<h3>Site Corporativo</h3>
 									<!-- <span><a href="#">Media</a>, <a href="#">Icons</a></span> -->
 								</div>
 								<!-- Description: End -->
@@ -1130,49 +1124,50 @@
 								<div class="form-widget">
 									<div class="form-result"></div>
 
-									<form class="mb-0" id="template-contactform" name="template-contactform"
-										action="include/form.php" method="post">
+									<form action="https://api.staticforms.xyz/submit" method="post">
 										<div class="form-process">
 											<div class="css3-spinner">
 												<div class="css3-spinner-scaler"></div>
 											</div>
 										</div>
 
+										<input type="hidden" name="accessKey"
+											value="001f4750-95a5-4111-b250-476ce5bd2e79"> <!-- Required -->
+											<!-- codigo de info@swconnect.dev:    c3c7ce22-3696-43f8-8073-6c4a3289fd59 -->
+
+										<!-- Testes abaixo -->
+
 										<div class="row">
 											<div class="col-md-4 form-group">
-												<label for="template-contactform-name">Nome <small>*</small></label>
-												<input type="text" id="template-contactform-name"
-													name="template-contactform-name" value=""
+												<label for="form-name">Nome <small>*</small></label>
+												<input type="text" id="form-name" name="name" value=""
 													class="sm-form-control required" />
 											</div>
-
 											<div class="col-md-4 form-group">
-												<label for="template-contactform-email">Email <small>*</small></label>
-												<input type="email" id="template-contactform-email"
-													name="template-contactform-email" value=""
+												<label for="form-email">Email <small>*</small></label>
+												<input type="email" id="form-email" name="email" value=""
 													class="required email sm-form-control" />
 											</div>
-
 											<div class="col-md-4 form-group">
-												<label for="template-contactform-phone">Telefone</label>
-												<input type="text" id="template-contactform-phone"
-													name="template-contactform-phone" value=""
+												<label for="form-phone">Telefone</label>
+												<input type="text" id="form-phone" name="phone" value=""
 													class="sm-form-control" />
 											</div>
 
 											<div class="w-100"></div>
 
 											<div class="col-md-8 form-group">
-												<label for="template-contactform-subject">Assunto
-													<small>*</small></label>
-												<input type="text" id="template-contactform-subject" name="subject"
-													value="" class="required sm-form-control" />
+												<label for="form-subject">Assunto
+													<small>*</small>
+												</label>
+												<input type="text" id="form-subject" name="subject" value=""
+													class="required sm-form-control" />
 											</div>
-
+											<!-- AGUARDANDO TESTE DE EMAIL DAS 14:47H -->
+											<!-- SE O ABAIXO NAO FUNCIONAR.... VOLTAR!!!! -->
 											<div class="col-md-4 form-group">
-												<label for="template-contactform-service">Serviços</label>
-												<select id="template-contactform-service"
-													name="template-contactform-service" class="sm-form-control">
+												<label for="form-service">Serviços</label>
+												<select id="form-service" name="$service" class="sm-form-control">
 													<option value="">-- Selecione um --</option>
 													<option value="Outsourcing de TI">Outsourcing de TI</option>
 													<option value="Suporte Técnico">Suporte Técnico</option>
@@ -1192,29 +1187,35 @@
 											<div class="w-100"></div>
 
 											<div class="col-12 form-group">
-												<label for="template-contactform-message">Mensagem
-													<small>*</small></label>
+												<label for="form-message">Mensagem
+													<small>*</small>
+												</label>
 												<textarea class="required sm-form-control"
-													id="template-contactform-message"
-													name="template-contactform-message" rows="6" cols="30"></textarea>
+													id="form-message" name="message" rows="6"
+													cols="30">
+												</textarea>
+											</div>
+											<div class="col-12">
+												<button class="button button-3d m-0" type="submit" name="submit" value="submit">Enviar e-mail</button>
 											</div>
 
-											<div class="col-12 form-group d-none">
-												<input type="text" id="template-contactform-botcheck"
-													name="template-contactform-botcheck" value=""
-													class="sm-form-control" />
-											</div>
 
-											<div class="col-12 form-group">
-												<button class="button button-3d m-0" type="submit"
-													id="template-contactform-submit" name="template-contactform-submit"
-													value="submit">Enviar e-mail</button>
-											</div>
 										</div>
 
-										<input type="hidden" name="prefix" value="template-contactform-">
-
+										<!-- Fim dos testes -->
+										<!-- <input type="text" name="name">  -->
+										<!-- Optional -->
+										<!-- <input type="text" name="subject">  -->
+										<!-- Optional -->
+										<!-- <input type="text" name="email">  -->
+										<!-- Optional -->
+										<!-- <input type="text" name="phone">  -->
+										<!-- Optional -->
+										<!-- <textarea name="message"></textarea>  -->
+										<!-- Optional -->
+										<!-- <input type="submit" value="Submit" /> -->
 									</form>
+
 								</div>
 
 							</div><!-- Contact Form End -->
@@ -1473,12 +1474,12 @@
 												</div>
 											</div>
 
-											
-										
-											
-											
-										
-											
+
+
+
+
+
+
 										</div>
 									</div>
 
@@ -1493,7 +1494,7 @@
 
 										<div class="posts-sm row gy-2" id="post-list-footer">
 
-										
+
 
 											<div class="entry col-12">
 												<div class="grid-inner row">
@@ -1759,6 +1760,10 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
+
+
+
+
 
 </body>
 

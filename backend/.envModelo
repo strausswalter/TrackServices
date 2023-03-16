@@ -1,7 +1,0 @@
-# Modelo do arquivo .env para ser sincronizado via GitHub 
-
-EMAIL='xxxxxxx@gmail.com'
-MAIL_SENDER='xxxxxxx@gmail.com'
-EMAIL_PASSWORD='Senha de App Google (gmail), ou de outro servidor de emails'  
-EMAIL_PORT=465
-EMAIL_HOST='smtp.gmail.com'
