@@ -47,7 +47,7 @@
 
 					<div class="col-12 col-lg-auto">
 						<!-- <p class="mb-0 d-flex justify-content-center justify-content-lg-start py-3 py-lg-0"><strong>Free U.S. Shipping on Order above $99. Easy Returns.</strong></p> -->
-
+						
 						<div class="top-links">
 							<ul class="top-links-container">
 								<li class="top-links-item"></i><a href="#"><i class="icon-phone3"></i> Corporativo: (22)
@@ -114,7 +114,7 @@
 		<!-- Header
 		============================================= -->
 		<!-- <header id="header" class="full-header transparent-header" data-sticky-class="not-dark"> -->
-		<header id="header" class="full-header" data-sticky-class="not-dark">
+			<header id="header" class="full-header" data-sticky-class="not-dark">
 
 			<div id="header-wrap">
 				<div class="container">
@@ -137,8 +137,11 @@
 							<div id="chamado" class="header-misc">
 								<!-- <div id="chamado" class="header-misc-icon"> -->
 
-								<!-- <a href="https://portal.milvus.com.br/#/login" target="_blank" class="menu-link">Abra o seu chamado</a> -->
-								<a href="https://apiintegracao.milvus.com.br/api/chamado/criar" target="_blank" class="menu-link">Abra o seu chamado</a>
+								<a href="https://portal.milvus.com.br/#/login" target="_blank" class="menu-link">Abra o
+									seu chamado</a>
+								<!-- <a href="#" class="menu-link btn btn-default">Abra o seu chamado</a> -->
+
+
 
 
 
@@ -238,24 +241,38 @@
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
 
+						<!-- TODO: Slide 5 - Mudar imagem e confirmar se vai ser "não dark" -->
+						<div class="swiper-slide dark">
+							<div class="container">
+								<!-- TODO: Caption abaixo está à esquerda (não centralizado) Manter?? -->
+								<div class="slider-caption slider-caption-right caption-option1">
+									<h2 class="caption-option1" data-animate="fadeInUp">NOC - Network Operations Center
+									</h2>
+									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Sua
+										infraestrutura de TI monitorada por nossa equipe em tempo real, detectando e
+										prevenindo problemas de forma proativa.</p>
+								</div>
+							</div>
+							<div class="swiper-slide-bg"
+								style="background-image: url('images/slider/swiper/noc.webp'); background-position: center top;">
+							</div>
+						</div>
 						<!-- Slide 1 -->
 						<!--  TODO: JOÃO: Mudar imagem abaio para Outsourcing de TI -->
 						<div class="swiper-slide dark">
 							<div class="container">
 								<!-- TODO: 14/03/2023: Mudou caption de right para left -->
 								<div class="slider-caption slider-caption-left caption-option1 caption-position1">
-									<h2 class="caption-option1 caption-position1" data-animate="fadeInUp">Outsourcing de
-										TI</h2>
-									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Terceirização
-										de TI é estratégia vantajosa para sua empresa aumentar a produtividade, otimizar
-										o desempenho, agilizar processos e elevar a qualidade dos serviços prestados por
-										uma empresa.</p>
+									<h2 class="caption-option1 caption-position1" data-animate="fadeInUp">Infraestrutura de TI</h2>
+									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Temos soluções
+										completas de projetos de TI, desde cabeamento estruturado até implantação de
+										Firewall e Servidores.</p>
 								</div>
 							</div>
 							<!-- Foto 2 tecnicos de costas -->
 							<!-- <div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/suporteExterno.webp'); background-position: center top;"></div> -->
-							<div class="swiper-slide-bg"
-								style="background-image: url('images/slider/swiper/outosourcing.webp'); background-position: center top;">
+							<div class="swiper-slide-bg"	
+								style="background-image: url('images/slider/swiper/Infra.webp'); background-position: center top;">
 							</div>
 						</div>
 
@@ -265,14 +282,15 @@
 							<div class="container">
 
 								<div class="slider-caption caption-option1">
-									<h2 class="caption-option1" data-animate="fadeInUp">Infraestrutura de TI</h2>
-									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Temos soluções
-										completas de projetos de TI, desde cabeamento estruturado até implantação de
-										Firewall e Servidores.</p>
+									<h2 class="caption-option1" data-animate="fadeInUp">Outsourcing de TI</h2>
+									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Terceirização
+										de TI é estratégia vantajosa para sua empresa aumentar a produtividade, otimizar
+										o desempenho, agilizar processos e elevar a qualidade dos serviços prestados por
+										uma empresa. </p>
 								</div>
 							</div>
 							<div class="swiper-slide-bg"
-								style="background-image: url('images/slider/swiper/Infra.webp');"></div>
+								style="background-image: url('images/slider/swiper/outosourcing.webp');"></div>
 						</div>
 
 						<!-- Slide com 3 vídeo, para uso futuro -->
@@ -297,7 +315,7 @@
 							<div class="container">
 								<!-- TODO: Caption abaixo está à esquerda (não centralizado) Manter?? -->
 								<div class="slider-caption slider-caption-right">
-									<h2 data-animate="fadeInUp">Assistência Técnica</h2>
+									<h2 class ="caption-option1" data-animate="fadeInUp">Assistência Técnica</h2>
 									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Manutenção
 										preventiva e corretiva em servidores, micro computadores e notebooks e
 										equipamentos de informática em geral.</p>
@@ -307,8 +325,6 @@
 								style="background-image: url('images/slider/swiper/assistencia.jpg'); background-position: center top;">
 							</div>
 						</div>
-
-
 
 						<!-- TODO: Slide 4 SÓ MOSTRANDO IMAGEM CLARA COM TEXTO PRETO - Mudar imagem e confirmar se vai ser "não dark" -->
 						<div class="swiper-slide dark">
@@ -328,32 +344,11 @@
 						</div>
 
 
-
-
-
-
-						<!-- TODO: Slide 5 - Mudar imagem e confirmar se vai ser "não dark" -->
-						<div class="swiper-slide dark">
-							<div class="container">
-								<!-- TODO: Caption abaixo está à esquerda (não centralizado) Manter?? -->
-								<div class="slider-caption slider-caption-right caption-option1">
-									<h2 class="caption-option1" data-animate="fadeInUp">NOC - Network Operations Center
-									</h2>
-									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Sua
-										infraestrutura de TI monitorada por nossa equipe em tempo real, detectando e
-										prevenindo problemas de forma proativa.</p>
-								</div>
-							</div>
-							<div class="swiper-slide-bg"
-								style="background-image: url('images/slider/swiper/noc.webp'); background-position: center top;">
-							</div>
-						</div>
-
 						<!-- TODO: Slide 6 - Mudar imagem e confirmar se vai ser "não dark" -->
 						<div class="swiper-slide dark">
 							<div class="container">
 								<!-- TODO: JOÃO: Mudar imagem abaixo (Venda de equipamentos) -->
-								<div class="slider-caption caption-option1">
+								<div class="slider-caption slider-caption-right caption-option1">
 									<h2 class="caption-option1" data-animate="fadeInUp">Venda de equipamentos</h2>
 									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Trabalhamos
 										com as principais marcas do mercado e com os maiores distribuidores do Brasil.
@@ -364,6 +359,56 @@
 								style="background-image: url('images/slider/swiper/equipamentosdeti.jpg'); background-position: center top;">
 							</div>
 						</div>
+
+						<!-- TODO: Slide 6 - Mudar imagem e confirmar se vai ser "não dark" -->
+						<div class="swiper-slide dark">
+							<div class="container">
+								<!-- TODO: JOÃO: Mudar imagem abaixo (Venda de equipamentos) -->
+								<div class="slider-caption slider-caption-left caption-option1">
+									<h2 class="caption-option1" data-animate="fadeInUp">FORTINET</h2>
+									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">A Fortinet é uma empresa especializada em soluções de segurança cibernética, 
+										incluindo firewall de próxima geração, segurança de rede, proteção contra ameaças avançadas e muito mais.
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide-bg"
+							style="background-image: url('images/slider/swiper/fortinet.webp'); background-position: center top;">
+								</div>
+							</div>
+
+					
+
+							<!-- TODO: Slide 6 - Mudar imagem e confirmar se vai ser "não dark" -->
+						<div class="swiper-slide dark">
+							<div class="container">
+								<!-- TODO: JOÃO: Mudar imagem abaixo (Venda de equipamentos) -->
+								<div class="slider-caption slider-caption-right caption-option1">
+									<h2 class="caption-option1" data-animate="fadeInUp">INTELBRAS</h2>
+									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Com uma ampla variedade de modelos e recursos, 
+										a Intelbras oferece soluções de segurança que podem atender às necessidades de diferentes clientes e ambientes.
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide-bg"
+							style="background-image: url('images/slider/swiper/intelbras.png'); background-position: center top;">
+								</div>
+							</div>
+
+		<!-- TODO: Slide 6 - Mudar imagem e confirmar se vai ser "não dark" -->
+		<div class="swiper-slide dark">
+			<div class="container">
+				<!-- TODO: JOÃO: Mudar imagem abaixo (Venda de equipamentos) -->
+				<div class="slider-caption caption-option1">
+					<h2 class="caption-option1" data-animate="fadeInUp">CONTROL ID</h2>
+					<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Com mais de 30 anos de atuação no mercado, a Control ID se destaca como uma referência em soluções de controle de acesso e segurança no Brasil.
+					</p>
+				</div>
+			</div>
+
+<div class="swiper-slide-bg"
+style="background-image: url('images/slider/swiper/controlid.jpg'); background-position: center top;">
+</div>
+</div>
 
 
 					</div>
@@ -450,23 +495,23 @@
 						</div>
 
 						<ul class="clients-grid grid-2 grid-sm-3 grid-md-6 mb-0">
-							<li class="grid-item"><a></a><img src="images/clients/logo-microsoft.png" alt="Clients"></a>
+							<li class="grid-item"><a></a><img src="images/clients/logo-microsoftpartner.png" alt="Clients"></a>
 							</li>
-							<li class="grid-item"><a><img src="images/clients/logo-lenovo.png" alt="Clients"></a></li>
+							<li class="grid-item"><a><img src="images/clients/logo-office365.png" alt="Clients"></a></li>
 							<li class="grid-item"><a><img src="images/clients/logo-vmware.png" alt="Clients"></a></li>
-							<li class="grid-item"><a><img src="images/clients/logo-secullum.png" alt="Clients"></a></li>
-							<li class="grid-item"><a><img src="images/clients/logo-positivo.png" alt="Clients"></a></li>
-							<li class="grid-item"><a><img src="images/clients/logo-hp.png" alt="Clients"></a></li>
-							<li class="grid-item"><a><img src="images/clients/logo-office365.png" alt="Clients"></a>
+							<li class="grid-item"><a><img src="images/clients/logo-eset.png" alt="Clients"></a></li>
+							<li class="grid-item"><a><img src="images/clients/logo-kaspersky.png" alt="Clients"></a></li>
+							<li class="grid-item"><a><img src="images/clients/logo-pfsense.png" alt="Clients"></a></li>
+							<li class="grid-item"><a><img src="images/clients/logo-lenovo.png" alt="Clients"></a>
 							</li>
 							<li class="grid-item"><a><img src="images/clients/logo-intelbras.png" alt="Clients"></a>
 							</li>
 							<li class="grid-item"><a><img src="images/clients/logo-fortinet.png" alt="Clients"></a></li>
-							<li class="grid-item"><a><img src="images/clients/logo-kaspersky.png" alt="Clients"></a>
+							<li class="grid-item"><a><img src="images/clients/logo-hp.png" alt="Clients"></a>
 							</li>
 							<li class="grid-item"><a><img src="images/clients/logo-controlid.png" alt="Clients"></a>
 							</li>
-							<li class="grid-item"><a><img src="images/clients/logo-multilaser.png" alt="Clients"></a>
+							<li class="grid-item"><a><img src="images/clients/logo-positivo.png" alt="Clients"></a>
 							</li>
 						</ul>
 
@@ -726,15 +771,15 @@
 								<!-- Image: Start -->
 								<div class="portfolio-image">
 									<!-- Modal Ajax -->
-									<a href="./servicos-CFTV.html" data-lightbox="ajax">
+									<a href="./servicos-vendaequip.html" data-lightbox="ajax">
 										<!-- Imagem do slide 400x300 -->
-										<img src="images/services/cameras.png" alt="Imagem CFTV">
+										<img src="images/services/venda-equipamentos.png" alt="Imagem CFTV">
 									</a>
 								</div>
 								<!-- Image: End -->
 								<!-- Description: Start -->
 								<div class="portfolio-desc">
-									<h3>CFTV</h3>
+									<h3>Venda de Equipamentos</h3>
 									<!-- <span><a href="#">Media</a>, <a href="#">Icons</a></span> -->
 								</div>
 								<!-- Description: End -->
@@ -787,9 +832,9 @@
 								<!-- Image: Start -->
 								<div class="portfolio-image">
 									<!-- Modal Ajax -->
-									<a href="./servicos-vendaequip.html" data-lightbox="ajax">
+									<a href="./servicos-CFTV.html" data-lightbox="ajax">
 										<!-- Imagem do slide 400x300 -->
-										<img src="images/services/venda-equipamentos.png"
+										<img src="images/services/cftv-official.png"
 											alt="Imagem Venda de Equipamentos">
 									</a>
 								</div>
@@ -818,13 +863,13 @@
 									<!-- Modal Ajax -->
 									<a href="./servicos-sitecoorporativo.html" data-lightbox="ajax">
 										<!-- Imagem do slide 400x300 -->
-										<img src="images/services/site-coorporativo.png" alt="Imagem Site Corporativo">
+										<img src="images/services/site-coorporativo.png" alt="Imagem Site Coorporativo">
 									</a>
 								</div>
 								<!-- Image: End -->
 								<!-- Description: Start -->
 								<div class="portfolio-desc">
-									<h3>Site Corporativo</h3>
+									<h3>Site Coorporativo</h3>
 									<!-- <span><a href="#">Media</a>, <a href="#">Icons</a></span> -->
 								</div>
 								<!-- Description: End -->
@@ -1038,10 +1083,40 @@
 									<div class="testi-content">
 										<p>Nossa experiencia com a Track se transformou em profissionalismo e
 											excelência, agregando todos os valores, respeito, amizade,
-											confiança.Agradecemos a toda equipe do grupo Track Services.</p>
+											confiança. Agradecemos a toda equipe do grupo Track Services.</p>
 										<div class="testi-meta">
 											Francisco Rangel
 											<span>Dismeter Macaé.</span>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="testi-image">
+										<a href="#"><img src="images/clients/logo-microlabs.png"
+												alt="Customer Testimonails"></a>
+									</div>
+									<div class="testi-content">
+										<p>Os serviços da Track Services têm proporcionado ao Laboratório Microlabs benefícios como aumento de nossa produtividade, agilidade e maior segurança no nosso trabalho. 
+											A Track Services tem sido nossa parceira desde 2016, prestando serviço com qualidade e excelente atendimento.</p>
+										<div class="testi-meta">
+											Edson de Araujo Maciel 
+											<br>
+											Gíllian Esteves Tavares Maciel
+											<span>Microlabs.</span>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="testi-image">
+										<a href="#"><img src="images/clients/logo-oeg.png"
+												alt="Customer Testimonails"></a>
+									</div>
+									<div class="testi-content">
+										<p>A OEG Offshore e a Track Services possuem um pareceria de muito sucesso desde 2018. Durante todo esse tempo a Track Services atendeu com excelência as demandas de suporte de TI, independente se os atendimentos foram remotos, presenciais, de suporte com hardware ou softwares, com um time extremamente comprometido, atencioso e prestativo. 
+											A OEG Offshore reconhece os serviços prestados e possui a Track Services como um dos seus fornecedores de referência!”</p>
+										<div class="testi-meta">
+											Ramon Souza 
+											<span>Oeg Offshore.</span>
 										</div>
 									</div>
 								</div>
@@ -1076,15 +1151,19 @@
 						</div>
 						<div class="oc-item"><a href="#"><img src="images/clients/logo-macseal.png" alt="Clients"></a>
 						</div>
-						<div class="oc-item"><a href="#"><img src="images/clients/logo-sindipetro.png"
-									alt="Clients"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/logo-sindipetro.png" alt="Clients"></a>
+						</div>
 						<div class="oc-item"><a href="#"><img src="images/clients/logo-oeg.png" alt="Clients"></a></div>
 						<div class="oc-item"><a href="#"><img src="images/clients/logo-perenco.png" alt="Clients"></a>
 						</div>
 						<div class="oc-item"><a href="#"><img src="images/clients/logo-dismeter.png" alt="Clients"></a>
 						</div>
-						<div class="oc-item"><a href="#"><img src="images/clients/logo-atlanticahotels.png"
-									alt="Clients"></a></div>
+						<div class="oc-item"><a href="#"><img src="images/clients/logo-paraguacu.png" alt="Clients"></a>
+						</div>
+						<div class="oc-item"><a href="#"><img src="images/clients/logo-atlanticahotels.png" alt="Clients"></a>
+						</div>
+						<div class="oc-item"><a href="#"><img src="images/clients/logo-microlabs.png" alt="Clients"></a>
+						</div>
 
 						<!-- <div class="oc-item"><a href="#"><img src="images/clients/1.png" alt="Clients"></a></div>
 						<div class="oc-item"><a href="#"><img src="images/clients/2.png" alt="Clients"></a></div>
@@ -1124,50 +1203,49 @@
 								<div class="form-widget">
 									<div class="form-result"></div>
 
-									<form action="https://api.staticforms.xyz/submit" method="post">
+									<form class="mb-0" id="template-contactform" name="template-contactform"
+										action="include/form.php" method="post">
 										<div class="form-process">
 											<div class="css3-spinner">
 												<div class="css3-spinner-scaler"></div>
 											</div>
 										</div>
 
-										<input type="hidden" name="accessKey"
-											value="001f4750-95a5-4111-b250-476ce5bd2e79"> <!-- Required -->
-											<!-- codigo de info@swconnect.dev:    c3c7ce22-3696-43f8-8073-6c4a3289fd59 -->
-
-										<!-- Testes abaixo -->
-
 										<div class="row">
 											<div class="col-md-4 form-group">
-												<label for="form-name">Nome <small>*</small></label>
-												<input type="text" id="form-name" name="name" value=""
+												<label for="template-contactform-name">Nome <small>*</small></label>
+												<input type="text" id="template-contactform-name"
+													name="template-contactform-name" value=""
 													class="sm-form-control required" />
 											</div>
+
 											<div class="col-md-4 form-group">
-												<label for="form-email">Email <small>*</small></label>
-												<input type="email" id="form-email" name="email" value=""
+												<label for="template-contactform-email">Email <small>*</small></label>
+												<input type="email" id="template-contactform-email"
+													name="template-contactform-email" value=""
 													class="required email sm-form-control" />
 											</div>
+
 											<div class="col-md-4 form-group">
-												<label for="form-phone">Telefone</label>
-												<input type="text" id="form-phone" name="phone" value=""
+												<label for="template-contactform-phone">Telefone</label>
+												<input type="text" id="template-contactform-phone"
+													name="template-contactform-phone" value=""
 													class="sm-form-control" />
 											</div>
 
 											<div class="w-100"></div>
 
 											<div class="col-md-8 form-group">
-												<label for="form-subject">Assunto
-													<small>*</small>
-												</label>
-												<input type="text" id="form-subject" name="subject" value=""
-													class="required sm-form-control" />
+												<label for="template-contactform-subject">Assunto
+													<small>*</small></label>
+												<input type="text" id="template-contactform-subject" name="subject"
+													value="" class="required sm-form-control" />
 											</div>
-											<!-- AGUARDANDO TESTE DE EMAIL DAS 14:47H -->
-											<!-- SE O ABAIXO NAO FUNCIONAR.... VOLTAR!!!! -->
+
 											<div class="col-md-4 form-group">
-												<label for="form-service">Serviços</label>
-												<select id="form-service" name="$service" class="sm-form-control">
+												<label for="template-contactform-service">Serviços</label>
+												<select id="template-contactform-service"
+													name="template-contactform-service" class="sm-form-control">
 													<option value="">-- Selecione um --</option>
 													<option value="Outsourcing de TI">Outsourcing de TI</option>
 													<option value="Suporte Técnico">Suporte Técnico</option>
@@ -1187,35 +1265,29 @@
 											<div class="w-100"></div>
 
 											<div class="col-12 form-group">
-												<label for="form-message">Mensagem
-													<small>*</small>
-												</label>
+												<label for="template-contactform-message">Mensagem
+													<small>*</small></label>
 												<textarea class="required sm-form-control"
-													id="form-message" name="message" rows="6"
-													cols="30">
-												</textarea>
-											</div>
-											<div class="col-12">
-												<button class="button button-3d m-0" type="submit" name="submit" value="submit">Enviar e-mail</button>
+													id="template-contactform-message"
+													name="template-contactform-message" rows="6" cols="30"></textarea>
 											</div>
 
+											<div class="col-12 form-group d-none">
+												<input type="text" id="template-contactform-botcheck"
+													name="template-contactform-botcheck" value=""
+													class="sm-form-control" />
+											</div>
 
+											<div class="col-12 form-group">
+												<button class="button button-3d m-0" type="submit"
+													id="template-contactform-submit" name="template-contactform-submit"
+													value="submit">Enviar e-mail</button>
+											</div>
 										</div>
 
-										<!-- Fim dos testes -->
-										<!-- <input type="text" name="name">  -->
-										<!-- Optional -->
-										<!-- <input type="text" name="subject">  -->
-										<!-- Optional -->
-										<!-- <input type="text" name="email">  -->
-										<!-- Optional -->
-										<!-- <input type="text" name="phone">  -->
-										<!-- Optional -->
-										<!-- <textarea name="message"></textarea>  -->
-										<!-- Optional -->
-										<!-- <input type="submit" value="Submit" /> -->
-									</form>
+										<input type="hidden" name="prefix" value="template-contactform-">
 
+									</form>
 								</div>
 
 							</div><!-- Contact Form End -->
@@ -1390,7 +1462,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Gestão de TIC</a></h4>
+															<h4><a href="./servicos-gestaoTIC.html" data-lightbox="ajax">Gestão de TIC</a></h4>
 														</div>
 
 													</div>
@@ -1401,7 +1473,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Consultoria de TIC</a></h4>
+															<h4><a href="./servicos-consultariaTIC.html" data-lightbox="ajax">Consultoria de TIC</a></h4>
 														</div>
 
 													</div>
@@ -1412,7 +1484,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Serviços Offshore</a></h4>
+															<h4><a href="./servicos-offshore.html" data-lightbox="ajax">Serviços Offshore</a></h4>
 														</div>
 
 													</div>
@@ -1423,7 +1495,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Outsourcing de TI</a></h4>
+															<h4><a href="./servicos-outsourcingTI.html" data-lightbox="ajax">Outsourcing de TI</a></h4>
 														</div>
 
 													</div>
@@ -1434,7 +1506,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Projetos de TIC</a></h4>
+															<h4><a href="./servicos-infraestruturaTIC.html" data-lightbox="ajax">Projetos de TIC</a></h4>
 														</div>
 
 													</div>
@@ -1445,7 +1517,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Data Center e Servidores</a></h4>
+															<h4><a href="./servicos-DataCenterServidores.html" data-lightbox="ajax">Data Center e Servidores</a></h4>
 														</div>
 
 													</div>
@@ -1456,7 +1528,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Suporte Técnico</a></h4>
+															<h4><a href="./servicos-suportetecnico.html" data-lightbox="ajax">Suporte Técnico</a></h4>
 														</div>
 
 													</div>
@@ -1467,19 +1539,19 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">NOC</a></h4>
+															<h4><a href="./servicos-NOC.html" data-lightbox="ajax">NOC</a></h4>
 														</div>
 
 													</div>
 												</div>
 											</div>
 
-
-
-
-
-
-
+											
+										
+											
+											
+										
+											
 										</div>
 									</div>
 
@@ -1494,13 +1566,13 @@
 
 										<div class="posts-sm row gy-2" id="post-list-footer">
 
-
+										
 
 											<div class="entry col-12">
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Controle de Acesso</a></h4>
+															<h4><a href="./servicos-controledeacesso.html" data-lightbox="ajax">Controle de Acesso</a></h4>
 														</div>
 
 													</div>
@@ -1510,7 +1582,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">CFTV</a>
+															<h4><a href="./servicos-CFTV.html" data-lightbox="ajax">CFTV</a>
 															</h4>
 														</div>
 
@@ -1521,7 +1593,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Assistência Técnica</a></h4>
+															<h4><a href="./servicos-assistenciatec.html" data-lightbox="ajax">Assistência Técnica</a></h4>
 														</div>
 
 													</div>
@@ -1531,7 +1603,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Venda de Equipamentos</a></h4>
+															<h4><a href="./servicos-vendaequip.html" data-lightbox="ajax">Venda de Equipamentos</a></h4>
 														</div>
 
 													</div>
@@ -1541,7 +1613,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Sites Corporativos</a></h4>
+															<h4><a href="./servicos-sitecoorporativo.html" data-lightbox="ajax">Sites Corporativos</a></h4>
 														</div>
 
 													</div>
@@ -1551,7 +1623,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Aplicativos Móveis</a></h4>
+															<h4><a href="./servicos-appmoveis.html" data-lightbox="ajax">Aplicativos Móveis</a></h4>
 														</div>
 
 													</div>
@@ -1561,7 +1633,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">Aplicativos Web</a></h4>
+															<h4><a href="./servicos-appweb.html" data-lightbox="ajax">Aplicativos Web</a></h4>
 														</div>
 
 													</div>
@@ -1571,7 +1643,7 @@
 												<div class="grid-inner row">
 													<div class="col">
 														<div class="entry-title">
-															<h4><a href="#servicos">UI/UX Design</a></h4>
+															<h4><a href="./servicos-UIUXdesign.html" data-lightbox="ajax">UI/UX Design</a></h4>
 														</div>
 
 													</div>
@@ -1760,10 +1832,6 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
-
-
-
-
 
 </body>
 
