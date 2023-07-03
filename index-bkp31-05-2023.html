@@ -1223,75 +1223,95 @@ style="background-image: url('images/slider/swiper/microsoft-gdc-2020.webp'); ba
 							<!-- Contact Form
 							============================================= -->
 							<div class="col-lg-6">
+
 								<div class="fancy-title title-border">
 									<h3>Envie-nos um e-mail</h3>
 								</div>
-							
+
 								<div class="form-widget">
 									<div class="form-result"></div>
-							
-									<form target="_blank" class="mb-0" id="template-contactform" name="template-contactform"
-										action="https://formsubmit.co/strausswalter@gmail.com" method="post">
+
+									<form class="mb-0" id="template-contactform" name="template-contactform"
+										action="include/form.php" method="post">
 										<div class="form-process">
 											<div class="css3-spinner">
 												<div class="css3-spinner-scaler"></div>
 											</div>
 										</div>
-							
+
 										<div class="row">
 											<div class="col-md-4 form-group">
 												<label for="template-contactform-name">Nome <small>*</small></label>
-												<input type="text" id="template-contactform-name" name="name" value="" class="sm-form-control required" />
+												<input type="text" id="template-contactform-name"
+													name="template-contactform-name" value=""
+													class="sm-form-control required" />
 											</div>
-							
+
 											<div class="col-md-4 form-group">
 												<label for="template-contactform-email">Email <small>*</small></label>
-												<input type="email" id="template-contactform-email" name="email" value="" class="required email sm-form-control" />
+												<input type="email" id="template-contactform-email"
+													name="template-contactform-email" value=""
+													class="required email sm-form-control" />
 											</div>
-							
+
 											<div class="col-md-4 form-group">
 												<label for="template-contactform-phone">Telefone</label>
-												<input type="text" id="template-contactform-phone" name="phone" value="" class="sm-form-control" />
+												<input type="text" id="template-contactform-phone"
+													name="template-contactform-phone" value=""
+													class="sm-form-control" />
 											</div>
-							
+
 											<div class="w-100"></div>
-							
+
 											<div class="col-md-8 form-group">
-												<label for="template-contactform-subject">Assunto <small>*</small></label>
-												<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control" />
+												<label for="template-contactform-subject">Assunto
+													<small>*</small></label>
+												<input type="text" id="template-contactform-subject" name="subject"
+													value="" class="required sm-form-control" />
 											</div>
-							
+
 											<div class="col-md-4 form-group">
 												<label for="template-contactform-service">Setor</label>
-												<select id="template-contactform-service" name="service" class="sm-form-control">
+												<select id="template-contactform-service"
+													name="template-contactform-service" class="sm-form-control">
 													<option value="">-- Selecione um --</option>
-													<option value="Administrativo">Administrativo</option>
-													<option value="Financeiro">Financeiro</option>
-													<option value="Comercial">Comercial</option>
-													<option value="Operacional">Operacional</option>
+													<option value="Outsourcing de TI">Administrativo</option>
+													<option value="Suporte Técnico">Financeiro</option>
+													<option value="Assistência Técnica">Comercial</option>
+													<option value="Data Center e Servidores">Operacional
+													</option>
 												</select>
 											</div>
-							
+
 											<div class="w-100"></div>
-							
+
 											<div class="col-12 form-group">
-												<label for="template-contactform-message">Mensagem <small>*</small></label>
-												<textarea class="required sm-form-control" id="template-contactform-message" name="message" rows="6" cols="30"></textarea>
+												<label for="template-contactform-message">Mensagem
+													<small>*</small></label>
+												<textarea class="required sm-form-control"
+													id="template-contactform-message"
+													name="template-contactform-message" rows="6" cols="30"></textarea>
 											</div>
-							
+
 											<div class="col-12 form-group d-none">
-												<input type="text" id="template-contactform-botcheck" name="botcheck" value="" class="sm-form-control" />
+												<input type="text" id="template-contactform-botcheck"
+													name="template-contactform-botcheck" value=""
+													class="sm-form-control" />
 											</div>
-							
+
 											<div class="col-12 form-group">
-												<button class="button button-3d m-0" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Enviar e-mail</button>
+												<button class="button button-3d m-0" type="submit"
+													id="template-contactform-submit" name="template-contactform-submit"
+													value="submit">Enviar e-mail</button>
 											</div>
 										</div>
-										<input type="hidden" name="_next" value="https://trackservices.com.br/obrigado.html">
+
+										<input type="hidden" name="prefix" value="template-contactform-">
+
 									</form>
 								</div>
-							</div>
-							
+
+							</div><!-- Contact Form End -->
 
 							<!-- Google Map
 							============================================= -->
